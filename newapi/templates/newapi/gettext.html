@@ -1,0 +1,7 @@
+{% extends 'newapi/base.html' %}
+{% block content %}
+  <h1>Texts</h1>
+    <a  href="{% url 'newapi:uploadtext' %}" type="button" name="button">AddNew</a>
+    <br>
+    {{content}}
+{% endblock %}
